@@ -1,0 +1,44 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    color: F0EFF1;
+    background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.coming {
+    /* margin: 15% auto auto 30%; */
+    color: #AC8DAF;
+    font-size: 80px;
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 320px;
+}
+
+.container {
+    position: absolute;
+    width: 600px;
+    height: 200px;
+    z-index: 15;
+    top: 50%;
+    left: 15%;
+    margin: -100px 0 0 -150px;
+
+}
+
+#mc_embed_signup_scroll {
+
+    color: #AC8DAF;
+    font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    position: absolute; 
+    top: 60%;
+    left: 15%;
+    width: 320px;s
+    
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
